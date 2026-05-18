@@ -45,8 +45,8 @@ bikeshare_project/
 ### 1. Cloner le dépôt
 
 ```bash
-git clone https://github.com/<votre-username>/bikeshare-forecasting.git
-cd bikeshare-forecasting
+git clone https://github.com/evenciam/bikeshare_project.git
+cd bikeshare_project
 ```
 
 ### 2. Créer l'environnement virtuel
