@@ -1,0 +1,21 @@
+{
+  "total_rides_all": 12776970,
+  "total_rides_test": 7623121,
+  "n_hours_total": 17544,
+  "n_hours_test": 10247,
+  "period_start": "2024-01-01",
+  "period_end": "2025-12-31",
+  "test_start": "2024-10-31",
+  "test_end": "2025-12-31",
+  "xgb_mae": 142.17,
+  "xgb_rmse": 221.07,
+  "xgb_smape": 28.16,
+  "naive_mae": 640.29,
+  "naive_smape": 162.76,
+  "improvement_mae_pct": 77.8,
+  "avg_hourly_demand": 728.3,
+  "peak_demand": 3180,
+  "peak_hour_threshold": 1661.4,
+  "pct_member": 68.8,
+  "pct_casual": 31.2
+}
