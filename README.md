@@ -23,8 +23,6 @@ bikeshare_project/
 │   └── utils.py                # Fonctions utilitaires partagées
 │
 ├── notebooks/
-│   ├── 01_EDA.ipynb            # Exploration interactive
-│   ├── 02_Modeling.ipynb       # Modélisation pas à pas
 │   └── 03_Dashboard_Prep.ipynb # Préparation des données pour le dashboard
 │
 ├── dashboard/
@@ -86,7 +84,7 @@ python src/06_evaluation.py
 
 ```bash
 python dashboard/app.py
-# Ouvrir http://127.0.0.1:8050
+# Ouvrir  http://127.0.0.1:8050
 ```
 
 ### 7. Jupyter Notebooks (optionnel)
@@ -101,10 +99,10 @@ jupyter lab
 
 | Modèle | MAE | sMAPE | RMSE |
 |--------|-----|-------|------|
-| Baseline (moyenne glissante 7j) | ~45 trajets/h | ~38% | ~62 |
-| XGBoost + Feature Engineering | ~18 trajets/h | ~16% | ~27 |
+| Baseline (moyenne glissante 7j) | ~131.64 trajets/h | ~17.31% | ~246.45 |
+| XGBoost + Feature Engineering | ~142.17 trajets/h | ~28.2% | ~221.01 |
 
-> *Résultats sur le jeu de test temporel (données post-octobre 2024)*
+> *Résultats sur le jeu de test temporel (données post-octobre 2025)*
 
 ---
 
